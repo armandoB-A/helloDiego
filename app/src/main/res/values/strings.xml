@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Diego Oswaldo</string>
+    <string name="titulo">welcome my wordl</string>
+    <string name="app_ingresa_nombre">ingresa cantidad</string>
+</resources>

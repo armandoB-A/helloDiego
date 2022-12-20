@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464595401925",
+    "project_id": "hellodiego-dd4c2",
+    "storage_bucket": "hellodiego-dd4c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464595401925:android:3f15d3c826f053794344ac",
+        "android_client_info": {
+          "package_name": "com.tesji.hellodiego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464595401925-uftv7h3fnpvbhb33s3mqrofs2f7k2bst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNU07LR47i8BliA6wRQoEmygun1kC3-2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464595401925-uftv7h3fnpvbhb33s3mqrofs2f7k2bst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
