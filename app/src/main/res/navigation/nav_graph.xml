@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.tesji.hellodiego.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_agregarJugador"
+            app:destination="@id/agregarJugador" />
+        <action
+            android:id="@+id/action_inicio_to_editarBJugador"
+            app:destination="@id/editarBJugador" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarJugador"
+        android:name="com.tesji.hellodiego.AgregarJugador"
+        android:label="fragment_agregar_jugador"
+        tools:layout="@layout/fragment_agregar_jugador" />
+    <fragment
+        android:id="@+id/editarBJugador"
+        android:name="com.tesji.hellodiego.EditarBJugador"
+        android:label="fragment_editar_b_jugador"
+        tools:layout="@layout/fragment_editar_b_jugador" />
+</navigation>

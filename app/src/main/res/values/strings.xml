@@ -2,4 +2,6 @@
     <string name="app_name">Diego Oswaldo</string>
     <string name="titulo">welcome my wordl</string>
     <string name="app_ingresa_nombre">ingresa cantidad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
